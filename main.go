@@ -11,7 +11,7 @@ func main() {
 	app.Get("/", func(c *fiber.Ctx) error {
 
 		return c.Status(fiber.StatusOK).JSON(&fiber.Map{
-			"message": "Hello from golang",
+			"message": "Hello from golang updated now",
 		})
 	})
 
